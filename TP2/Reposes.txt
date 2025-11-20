@@ -1,0 +1,60 @@
+Activité 1 : Exploration de la structure d'un projet Angular
+
+Description des dossiers et fichiers principaux
+
+src/app : Contient le code source de l'application Angular. C'est le dossier principal où se trouvent tous les composants, services, modules, directives, pipes et autres éléments de l'application. C'est ici que vous développez la logique métier et l'interface utilisateur de votre application.
+
+src/assets : Contient les ressources statiques de l'application comme les images, icônes, fichiers JSON, polices, etc. Ces fichiers sont copiés tels quels dans le dossier de distribution lors de la compilation et sont accessibles publiquement via des URLs relatives.
+
+src/environments : Contient les fichiers de configuration pour différents environnements (développement, production, test). Permet de définir des variables spécifiques à chaque environnement comme les URLs d'API, les clés d'API, les flags de debug, etc. Angular CLI utilise ces fichiers pour remplacer les configurations lors du build.
+
+src/main.ts : Point d'entrée principal de l'application Angular. C'est le premier fichier TypeScript exécuté. Il bootstrap (initialise) le module racine de l'application (AppModule) et démarre l'application Angular dans le navigateur. Il peut également contenir des configurations globales comme l'activation du mode production.
+
+src/index.html : Fichier HTML principal de l'application. C'est la page web de base qui est servie au navigateur. Elle contient la balise `<app-root>` où Angular injecte dynamiquement l'application. Ce fichier inclut également les balises meta, le titre de la page, et les liens vers les ressources externes si nécessaire.
+
+angular.json : Fichier de configuration principal pour Angular CLI. Il définit les configurations de compilation, de test, et de déploiement du projet. Contient les chemins vers les fichiers sources, les options de build, les configurations des différents environnements, les styles globaux, les scripts, et les options pour chaque projet dans le workspace.
+
+package.json : Fichier de configuration npm qui décrit le projet et ses dépendances. Liste toutes les bibliothèques et packages nécessaires (dependencies et devDependencies), définit les scripts npm disponibles (start, build, test), contient les métadonnées du projet (nom, version, auteur), et gère les versions des packages utilisés.
+
+tsconfig.json : Fichier de configuration pour le compilateur TypeScript. Définit les options de compilation TypeScript comme la version ECMAScript cible, le système de modules, les chemins de résolution, les options de vérification de type stricte, et les fichiers à inclure ou exclure de la compilation. Assure la cohérence du code TypeScript dans tout le projet.
+
+
+Question 1 : la Structure d'un Projet Angular
+
+1 : b
+2 : c
+3 : b
+4 : a
+5 : a
+
+Question 2 : Création et l'Intégration de Composants Angular
+
+1 : c
+2 : d
+3 : b
+4 : a
+5 : a
+
+Question 3 : Liaison de Données Bidirectionnelle avec ngModel
+
+1 : c
+2 : b
+3 : b
+4 : c
+5 : b
+
+Question 4 : l'AppModule
+
+1 : c
+2 : a
+3 : b
+4 : c
+5 : b
+
+Question 5 : QCM sur la Déclaration des Composants dans l'AppModule
+
+1 : a
+2 : b
+3 : b
+4 : b
+5 : b
